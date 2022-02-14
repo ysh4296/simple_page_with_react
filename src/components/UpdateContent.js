@@ -16,10 +16,7 @@ class UpdateContent extends Component {
     render(){
         var Update_Form = null;
         if(this.props.index > -1){
-            console.log("hi")
             //this.setState({desc:this.props.internlist[this.props.index].desc});
-
-            console.log(this.state.desc)
             Update_Form =
                 [<form
                 action = "update_process/"

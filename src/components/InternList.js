@@ -2,10 +2,8 @@ import {Component} from "react";
 
 class InternList extends Component {
     render(){
-        console.log("render list")
         var Interns = [];
         var data = this.props.data;
-        console.log(data.length);
         var i = 0;
         for( ; i < data.length ; i++){
             Interns.push(
